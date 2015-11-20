@@ -11,7 +11,7 @@
 //-----------------------------------------------------------
 GameManager::GameManager(GameData* data, GameState* state)
 {
-    game_data = data;
+    game_data = data; 
     game_state = state;
     fps_manager = new FPSManager();
     draw_manager = new DrawManager(data, state);
